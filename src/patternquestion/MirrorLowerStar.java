@@ -1,8 +1,10 @@
 package patternquestion;
 
-public class MirrorUpperStar {
+public class MirrorLowerStar {
 	
-    public static void MirrorUpperStar(int num) {
+public static void MirrorLowerStar(int num) {
+	
+	 
 		
 		for(int i =0; i<num; i++) {
 			
@@ -19,27 +21,14 @@ public class MirrorUpperStar {
 			System.out.println();
 		}
 		
-          for(int a =0; a<num-1; a++) {
-			
-			for (int b = -1; b<a+1; b++) {
-				System.out.print(" ");
-			}
-			
-			for (int c= num-2-a ; c>=0 ; c--) {
-				System.out.print(" *");
-			}
-			
-			 
-			 
-			System.out.println();
-		}
+         
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		int num = 7;
-		MirrorUpperStar(num);
+		MirrorLowerStar(num);
 
 	}
 
